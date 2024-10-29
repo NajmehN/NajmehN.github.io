@@ -1,19 +1,28 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Biography"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Najmeh Nazari is a Ph.D. student in the ECE department at the University of California, Davis. She received her B.Sc. and M.Sc. degrees both in computer engineering from the Shiraz University and the Isfahan University of Technology in 2010 and 2013, respectively. 
+From 2013 to 2015, she served as a lecturer at the Shahid Chamran University of Ahwaz. Her research interests include deep learning, embedded systems, and hardware security.
 
-A data-driven personal website
+Research Projects
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+1. Adversarial Attacks against Machine Learning-based Resource Provisioning Systems
+In cloud computing, microarchitectural attacks can expose sensitive information by exploiting shared hardware resources between virtual machines (VMs). However, such attacks are traditionally limited by the need for attacker and victim VMs to co-locate on the same hardware. My research in adversarial attacks against machine learning-based resource provisioning systems (RPSs) tackles this limitation, demonstrating that RPSs themselves can be manipulated to achieve co-location. By deploying adversarial evasion attacks on RPSs, we can successfully position attacker VMs alongside targeted victim VMs, bypassing conventional constraints on microarchitectural attacks. This work also examines the adaptability of defense techniques from image classification to RPSs, revealing both the possibilities and limitations of cross-domain defenses.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+2. SpecScope: Automating the Discovery of Spectre Gadgets
+Spectre and related transient execution attacks underscore a fundamental security flaw in modern processors, revealing that performance-boosting features like speculative execution can leak sensitive data. SpecScope, my second major project, introduces a framework for automatically identifying Spectre gadgets in code using a black-box approach to microarchitectural analysis. By leveraging contention between transient and non-transient instructions, SpecScope reduces false positives by 8.9\% and increases true positives by 10.4\% over previous methods, enabling efficient mitigation strategies without sacrificing performance. This work provides a scalable tool for identifying Spectre vulnerabilities, striking a balance between security and system efficiency—a critical objective in mitigating the widespread impacts of speculative execution attacks.
+
+3. Architectural Whispers: Side-Channel Fingerprinting of Machine Learning Models
+With the proliferation of machine learning models, protecting the intellectual property and security of model architectures has gained importance. My research into frequency throttling-based side-channel fingerprinting unveils a novel technique to identify machine learning model architectures through timing variations. By leveraging adversarial kernels and a time-series classifier, this approach achieves up to 96\% accuracy in identifying model architectures across platforms with minimal privileges. This study highlights the feasibility of extracting confidential architectural details via side-channel attacks, demonstrating that securing ML models requires comprehensive protections beyond conventional software-based measures.
+
+4. Forget and Rewire: Resilience of Transformers against Bit-Flip Attacks
+Bit-flip attacks (BFAs) are a potent threat to AI models, allowing adversaries to disrupt model functionality by flipping key bits in model parameters. While the effects of BFAs on traditional neural networks are well-documented, their impact on Transformer-based models remains underexplored. My research introduces the Forget and Rewire (FaR) method, a unique approach inspired by neural "rewiring" to protect transformers from BFAs. FaR obfuscates neuron connections in Transformers' linear layers, redistributing tasks from essential to non-essential neurons to enhance resilience against targeted bit-flips. This method reduces BFA success rates by up to 4.2 times with minimal accuracy loss, paving the way for robust defenses in complex AI models and informing future research into resilient model architectures.
 
 Getting started
 ======
