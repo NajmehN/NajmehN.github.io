@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching core courses"
 collection: teaching
-type: "Workshop"
+type: "teaching"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Shahid Chamran University"
+date: 
+location: "Iran"
 ---
+Computer architecture, VHDL, MATLAB
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
 Heading 1
 ======
